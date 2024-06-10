@@ -18,6 +18,7 @@ const Index = () => {
         </HStack>
         <Button colorScheme="teal" size="lg" as="a" href="#contact">Contact Me</Button>
         <Button colorScheme="teal" size="lg" as={Link} to="/confetti">Celebrate</Button>
+        <Button colorScheme="teal" size="lg" as={Link} to="/kanban">Kanban Board</Button>
       </VStack>
     </Container>
   );
